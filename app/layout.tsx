@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Hash Web Design",
     images: [
       {
-        url: "https://hashwebdesign.com/og.png",
+        url: "https://hashwebdesign.com/hero-mockup.jpg",
         width: 1200,
         height: 630,
         alt: "Hash Web Design",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Hash Web Design - See Your Website Before You Pay",
     description:
       "Professional websites for local businesses. See your website before paying.",
-    images: ["https://hashwebdesign.com/og.png"],
+    images: ["https://hashwebdesign.com/hero-mockup.jpg"],
   },
 };
 
