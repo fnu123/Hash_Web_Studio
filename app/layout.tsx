@@ -12,12 +12,30 @@ export const metadata: Metadata = {
   title: "Hash Web Design - See Your Website Before You Pay",
   description:
     "Get a professional website for your local service business. See exactly how it looks before paying anything. Free demo websites for plumbers, HVAC, electricians, contractors, and more.",
-  generator: "v0.app",
+
   openGraph: {
     title: "Hash Web Design - See Your Website Before You Pay",
     description:
       "Get a professional website for your local service business. See exactly how it looks before paying anything.",
-    images: ["/og.png"],
+    url: "https://hashwebdesign.com",
+    siteName: "Hash Web Design",
+    images: [
+      {
+        url: "https://hashwebdesign.com/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Hash Web Design",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Hash Web Design - See Your Website Before You Pay",
+    description:
+      "Professional websites for local businesses. See your website before paying.",
+    images: ["https://hashwebdesign.com/og.png"],
   },
 };
 

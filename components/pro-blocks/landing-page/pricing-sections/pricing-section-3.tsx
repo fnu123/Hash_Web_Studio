@@ -73,7 +73,7 @@ export function PricingSection3() {
                 key={i}
                 className={`relative border shadow-lg transition hover:shadow-xl ${
                   plan.popular
-                    ? "border-blue-600 bg-blue-50 scale-105"
+                    ? "border-yellow-400 bg-yellow-50 scale-105"
                     : "border-border"
                 }`}
               >
@@ -81,7 +81,7 @@ export function PricingSection3() {
 
                   {/* Popular badge */}
                   {plan.popular && (
-                    <span className="absolute right-4 top-4 rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white">
+                    <span className="absolute right-4 top-4 rounded-full bg-yellow-400 px-3 py-1 text-xs font-semibold text-black">
                       Most Popular
                     </span>
                   )}
@@ -96,7 +96,7 @@ export function PricingSection3() {
                     <span
                       className={`text-5xl font-bold ${
                         plan.popular
-                          ? "text-blue-600"
+                          ? "text-yellow-500"
                           : "text-foreground"
                       }`}
                     >
@@ -111,11 +111,11 @@ export function PricingSection3() {
                         <div
                           className={`flex h-5 w-5 items-center justify-center rounded-full ${
                             plan.popular
-                              ? "bg-blue-600"
-                              : "bg-slate-900"
+                              ? "bg-yellow-400"
+                              : "bg-foreground"
                           }`}
                         >
-                          <Check className="h-3 w-3 text-white" />
+                          <Check className="h-3 w-3 text-background" />
                         </div>
                         <span className="text-sm text-foreground">
                           {feature}
@@ -130,7 +130,7 @@ export function PricingSection3() {
                       size="lg"
                       className={`w-full ${
                         plan.popular
-                          ? "bg-blue-600 hover:bg-blue-700 text-white"
+                          ? "bg-yellow-400 hover:bg-yellow-500 text-black"
                           : "bg-slate-950 hover:bg-slate-800 text-white"
                       }`}
                     >
