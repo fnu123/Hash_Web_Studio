@@ -73,16 +73,16 @@ export function HeroSection2() {
 
         {/* Right Column */}
         <div className="w-full flex-1">
-          <AspectRatio ratio={4 / 3}>
-            <Image
-              src="/hero-mockup.jpg"
-              alt="Professional website design mockup on laptop"
-              fill
-              priority
-              className="h-full w-full rounded-2xl object-cover shadow-2xl"
-            />
-          </AspectRatio>
+          <Image
+            src="/mainHero.png"
+            alt="Professional website design mockup on laptop"
+            width={1024}
+            height={1024}
+            priority
+            className="w-full h-auto rounded-2xl shadow-2xl"
+          />
         </div>
+
       </div>
     </section>
   );
