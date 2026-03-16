@@ -63,6 +63,8 @@ export function Footer1() {
                 <span>hashwebdesign.com</span>
               </a>
             </div>
+              <span className="flex items-center gap-2 text-background/80">
+              Proudly serving businesses across the United States from Texas</span>
           </div>
 
           {/* Navigation */}

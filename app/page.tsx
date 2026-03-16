@@ -10,12 +10,14 @@ import { PricingSection3 } from "@/components/pro-blocks/landing-page/pricing-se
 import { FaqSection2 } from "@/components/pro-blocks/landing-page/faq-sections/faq-section-2";
 import { ContactSection } from "@/components/pro-blocks/landing-page/contact-section";
 import { Footer1 } from "@/components/pro-blocks/landing-page/footers/footer-1";
+import About from "@/components/pro-blocks/landing-page/About/about";
 
 export default function Page() {
   return (
     <main>
       <LpNavbar1 />
       <HeroSection2 />
+      <About/>
       <CarouselSection />
       <ServicesSection />
       <HowItWorksSection />

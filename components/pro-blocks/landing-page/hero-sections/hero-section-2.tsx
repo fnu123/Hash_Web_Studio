@@ -25,6 +25,13 @@ export function HeroSection2() {
             <p className="text-muted-foreground text-lg lg:text-xl leading-relaxed">
               Get a professional website for your business and see exactly how it looks before paying anything.
             </p>
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold border"
+              style={{ borderColor: "var(--color-yellow-500)" }}>
+              <span style={{ color: "var(--color-yellow-500)" }}>U.S.</span>
+              <span>
+                Texas-based Senior Software Engineer • 12+ years experience
+              </span>
+            </div>
           </div>
 
           {/* Feature List */}
